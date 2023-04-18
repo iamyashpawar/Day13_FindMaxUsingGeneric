@@ -22,6 +22,8 @@ public class MaxVar
 
     }
 
+
+
     public Float findMaxFloat(Float num1, Float num2, Float num3) {
 
         Float max = num1;
@@ -35,5 +37,21 @@ public class MaxVar
         return max;
 
     }
+
+    public String findMaxString(String s1, String s2, String s3) {
+
+        String max = s1;
+        if (s2.compareTo(max) > 0) {
+            max = s2;
+        }
+        if (s3.compareTo(max) > 0) {
+            max = s3;
+        }
+        System.out.println(max);
+        return max;
+
+    }
+
+
 
 }
