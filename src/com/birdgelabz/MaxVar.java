@@ -5,7 +5,11 @@ import java.util.Scanner;
 public class MaxVar
 {
 
-    public static Integer findMax(Integer num1, Integer num2, Integer num3) {
+
+
+
+    public Integer findmax(Integer num1, Integer num2, Integer num3) {
+
         Integer max = num1;
         if (num2.compareTo(max) > 0) {
             max = num2;
@@ -13,8 +17,8 @@ public class MaxVar
         if (num3.compareTo(max) > 0) {
             max = num3;
         }
+        System.out.println(max);
         return max;
+
     }
-
-
 }
