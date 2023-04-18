@@ -11,6 +11,8 @@ public class MaxVarMain {
 
         maxVar.findMaxFloat(10.30f, 2.4f,6.4f);
 
+        maxVar.findMaxString("Apple","Peach","Banana");
+
 
     }
 
